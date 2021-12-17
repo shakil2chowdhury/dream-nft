@@ -1,0 +1,44 @@
+.card {
+    color: white;
+    background-color: #1a1c1e;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin-right: 30px;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.details {
+    padding: 20px;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.id {
+    color: #afaeae;
+    font-size: 14px;
+}
+
+.weth-image {
+    width: 15px;
+    height: 22px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+.price {
+    margin-left: 5px;
+    font-size: 18px;
+}
